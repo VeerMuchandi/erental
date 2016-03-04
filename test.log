@@ -1,0 +1,488 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Java EE 6 webapp project 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-processor-plugin:2.0.5:process (process) @ eRental ---
+[INFO] Source directory: C:\Users\Muchandi\WORKSP~1\eRental\target\metamodel added
+[INFO] No processors specified. Using default discovery mechanism.
+[INFO] javac option: -cp
+[INFO] javac option: C:\Users\Muchandi\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.3.1\sisu-inject-bean-1.4.3.1.jar;C:\Users\Muchandi\.m2\repository\org\sonatype\sisu\sisu-guice\2.9.1\sisu-guice-2.9.1-noaop.jar;C:\Users\Muchandi\.m2\repository\org\sonatype\aether\aether-util\1.8\aether-util-1.8.jar;C:\Users\Muchandi\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar;C:\Users\Muchandi\.m2\repository\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.jar;C:\Users\Muchandi\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Muchandi\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Muchandi\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Muchandi\WORKSP~1\eRental\src\main\resources;C:\Users\Muchandi\WORKSP~1\eRental\target\classes;C:\Users\Muchandi\.m2\repository\javax\enterprise\cdi-api\1.0-SP4\cdi-api-1.0-SP4.jar;C:\Users\Muchandi\.m2\repository\org\jboss\spec\javax\interceptor\jboss-interceptors-api_1.1_spec\1.0.0.Final\jboss-interceptors-api_1.1_spec-1.0.0.Final.jar;C:\Users\Muchandi\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Muchandi\.m2\repository\org\jboss\spec\javax\annotation\jboss-annotations-api_1.1_spec\1.0.0.Final\jboss-annotations-api_1.1_spec-1.0.0.Final.jar;C:\Users\Muchandi\.m2\repository\org\jboss\spec\javax\ws\rs\jboss-jaxrs-api_1.1_spec\1.0.0.Final\jboss-jaxrs-api_1.1_spec-1.0.0.Final.jar;C:\Users\Muchandi\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.1.Final\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\Users\Muchandi\.m2\repository\org\jboss\spec\javax\ejb\jboss-ejb-api_3.1_spec\1.0.1.Final\jboss-ejb-api_3.1_spec-1.0.1.Final.jar;C:\Users\Muchandi\.m2\repository\org\hibernate\hibernate-validator\4.2.0.Final\hibernate-validator-4.2.0.Final.jar;C:\Users\Muchandi\.m2\repository\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA.jar;C:\Users\Muchandi\.m2\repository\org\hibernate\hibernate-jpamodelgen\1.1.1.Final\hibernate-jpamodelgen-1.1.1.Final.jar;C:\Users\Muchandi\.m2\repository\commons-lang\commons-lang\2.3\commons-lang-2.3.jar;C:\Users\Muchandi\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar;C:\Users\Muchandi\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Muchandi\.m2\repository\org\slf4j\slf4j-api\1.6.4\slf4j-api-1.6.4.jar;C:\Program Files\Java\jdk1.7.0\jre\..\lib\tools.jar;
+[INFO] javac option: -proc:only
+[INFO] javac option: -d
+[INFO] javac option: C:\Users\Muchandi\WORKSP~1\eRental\target\classes
+[INFO] javac option: -s
+[INFO] javac option: C:\Users\Muchandi\WORKSP~1\eRental\target\metamodel
+[INFO] diagnostic Note: Hibernate JPA 2 Static-Metamodel Generator 1.1.1.Final
+[INFO] diagnostic warning: Supported source version 'RELEASE_6' from annotation processor 'org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor' less than -source '1.7'
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.3:add-source (add-source) @ eRental ---
+[INFO] Source directory: C:\Users\Muchandi\WORKSP~1\eRental\target\metamodel added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ eRental ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ eRental ---
+[INFO] Compiling 9 source files to C:\Users\Muchandi\WORKSP~1\eRental\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ eRental ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ eRental ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ eRental ---
+[INFO] Surefire report directory: C:\Users\Muchandi\WORKSP~1\eRental\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.pinaka.eRental.test.RentalItemManagerBeanTest
+log4j:WARN No appenders could be found for logger (org.jboss.logging).
+log4j:WARN Please initialize the log4j system properly.
+Apr 05, 2012 11:02:38 PM org.jboss.arquillian.container.impl.client.container.ContainerRegistryCreator getActivatedConfiguration
+INFO: Could not read active container configuration: null
+Apr 05, 2012 11:02:39 PM org.jboss.as.arquillian.container.managed.ManagedDeployableContainer startInternal
+INFO: Starting container with: [java, -Xmx512m, -XX:MaxPermSize=128m, -Djboss.home.dir=C:\Users\Muchandi\jboss-as-web-7.0.2.Final, -Dorg.jboss.boot.log.file=C:\Users\Muchandi\jboss-as-web-7.0.2.Final/standalone/log/boot.log, -Dlogging.configuration=file:C:\Users\Muchandi\jboss-as-web-7.0.2.Final/standalone/configuration/logging.properties, -Djboss.modules.dir=C:\Users\Muchandi\jboss-as-web-7.0.2.Final\modules, -jar, C:\Users\Muchandi\jboss-as-web-7.0.2.Final\jboss-modules.jar, -mp, C:\Users\Muchandi\jboss-as-web-7.0.2.Final\modules, -logmodule, org.jboss.logmanager, -jaxpmodule, javax.xml.jaxp-provider, org.jboss.as.standalone, -server-config, standalone.xml]
+23:02:41,369 INFO  [org.jboss.modules] JBoss Modules version 1.0.2.GA
+23:02:41,913 INFO  [org.jboss.msc] JBoss MSC version 1.0.1.GA
+23:02:41,994 INFO  [org.jboss.as] JBoss AS 7.0.2.Final "Arc" starting
+23:02:43,468 WARN  [org.jboss.as] No security realm defined for native management service, all access will be unrestricted.
+23:02:43,478 INFO  [org.jboss.as] creating http management service using network interface (management) port (9990)
+23:02:43,480 WARN  [org.jboss.as] No security realm defined for http management service, all access will be unrestricted.
+23:02:43,496 INFO  [org.jboss.as.logging] Removing bootstrap log handlers
+23:02:43,560 INFO  [org.jboss.as.connector.subsystems.datasources] (Controller Boot Thread) Deploying JDBC-compliant driver class org.h2.Driver (version 1.2)
+23:02:43,570 INFO  [org.jboss.as.connector.subsystems.datasources] (Controller Boot Thread) Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+23:02:43,662 INFO  [org.jboss.as.clustering.infinispan.subsystem] (Controller Boot Thread) Activating Infinispan subsystem.
+23:02:43,784 INFO  [org.jboss.as.naming] (Controller Boot Thread) JBAS011800: Activating Naming Subsystem
+23:02:43,814 INFO  [org.jboss.as.osgi] (Controller Boot Thread) JBAS011910: Activating OSGi Subsystem
+23:02:43,846 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+23:02:43,849 INFO  [org.jboss.as.security] (Controller Boot Thread) Activating Security Subsystem
+23:02:43,860 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 3.2.0.Beta2
+23:02:43,874 INFO  [org.xnio] (MSC service thread 1-4) XNIO Version 3.0.0.Beta3
+23:02:43,920 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.0.0.Beta3
+23:02:44,329 INFO  [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-1) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0\bin;C:\Users\Muchandi\Documents\maven\apache-maven-3.0.3\bin;C:\grails-2.0.0\bin;C:\groovy-1.8.5\bin;C:\Program Files\HP webOS\PDK\bin;C:\Program Files\HP webOS\SDK\bin;C:\Program Files\HP webOS\SDK\bin\novacom;.
+23:02:44,355 INFO  [org.jboss.as.ee] (Controller Boot Thread) Activating EE subsystem
+23:02:44,900 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) Listening on /127.0.0.1:9999
+23:02:44,914 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) Starting Coyote HTTP/1.1 on http--127.0.0.1-8080
+23:02:44,917 INFO  [org.jboss.as.jmx.JMXConnectorService] (MSC service thread 1-1) Starting remote JMX connector
+23:02:45,017 INFO  [org.jboss.as.connector] (MSC service thread 1-4) Starting JCA Subsystem (JBoss IronJacamar 1.0.3.Final)
+23:02:45,130 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) Bound data source [java:jboss/datasources/MysqlDS]
+23:02:45,131 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) Bound data source [java:jboss/datasources/ExampleDS]
+23:02:45,217 INFO  [org.jboss.as.deployment] (MSC service thread 1-1) Started FileSystemDeploymentService for directory C:\Users\Muchandi\jboss-as-web-7.0.2.Final\standalone\deployments
+23:02:45,245 WARN  [org.jboss.as.deployment] (DeploymentScanner-threads - 1) Deployment of 'jboss-as-kitchensink' requested, but the deployment is not present
+23:02:45,246 INFO  [org.jboss.as.deployment] (DeploymentScanner-threads - 1) Found eRental.war in deployment directory. To trigger deployment create a file called eRental.war.dodeploy
+23:02:45,296 INFO  [org.jboss.as] (Controller Boot Thread) JBoss AS 7.0.2.Final "Arc" started in 4355ms - Started 98 of 153 services (55 services are passive or on-demand)
+23:02:45,313 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) Starting deployment of "eRental.war"
+23:02:45,547 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) Class Path entry activation.jar in "/C:/Users/Muchandi/jboss-as-web-7.0.2.Final/standalone/deployments/eRental.war/WEB-INF/lib/mail-1.4.jar"  does not point to a valid jar for a Class-Path reference.
+23:02:45,824 INFO  [org.jboss.jpa] (MSC service thread 1-1) read persistence.xml for primary
+23:02:45,967 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) added javax.persistence.api, javaee.api, org.jboss.as.jpa, org.javassist dependencies to eRental.war
+23:02:45,968 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) added (default provider) org.hibernate dependency to application deployment (since 1 PU(s) didn't specify jboss.as.jpa.providerModule)
+23:02:45,969 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) added org.hibernate dependency to application deployment
+23:02:46,096 INFO  [org.jboss.weld] (MSC service thread 1-1) Processing CDI deployment: eRental.war
+23:02:46,106 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named RentalItemMgmtServiceBean in deployment unit deployment "eRental.war" are as follows:
+
+	java:global/eRental/RentalItemMgmtServiceBean!com.pinaka.eRental.serviceFacade.RentalItemMgmtServiceBean
+	java:app/eRental/RentalItemMgmtServiceBean!com.pinaka.eRental.serviceFacade.RentalItemMgmtServiceBean
+	java:module/RentalItemMgmtServiceBean!com.pinaka.eRental.serviceFacade.RentalItemMgmtServiceBean
+	java:global/eRental/RentalItemMgmtServiceBean
+	java:app/eRental/RentalItemMgmtServiceBean
+	java:module/RentalItemMgmtServiceBean
+
+23:02:46,107 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named UserManagerBean in deployment unit deployment "eRental.war" are as follows:
+
+	java:global/eRental/UserManagerBean!com.pinaka.eRental.service.UserManagerBean
+	java:app/eRental/UserManagerBean!com.pinaka.eRental.service.UserManagerBean
+	java:module/UserManagerBean!com.pinaka.eRental.service.UserManagerBean
+	java:global/eRental/UserManagerBean
+	java:app/eRental/UserManagerBean
+	java:module/UserManagerBean
+
+23:02:46,107 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named RentalItemManagerBean in deployment unit deployment "eRental.war" are as follows:
+
+	java:global/eRental/RentalItemManagerBean!com.pinaka.eRental.service.RentalItemManager
+	java:app/eRental/RentalItemManagerBean!com.pinaka.eRental.service.RentalItemManager
+	java:module/RentalItemManagerBean!com.pinaka.eRental.service.RentalItemManager
+	java:global/eRental/RentalItemManagerBean
+	java:app/eRental/RentalItemManagerBean
+	java:module/RentalItemManagerBean
+
+23:02:46,108 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named RentalManagerBean in deployment unit deployment "eRental.war" are as follows:
+
+	java:global/eRental/RentalManagerBean!com.pinaka.eRental.service.RentalManagerBean
+	java:app/eRental/RentalManagerBean!com.pinaka.eRental.service.RentalManagerBean
+	java:module/RentalManagerBean!com.pinaka.eRental.service.RentalManagerBean
+	java:global/eRental/RentalManagerBean
+	java:app/eRental/RentalManagerBean
+	java:module/RentalManagerBean
+
+23:02:46,108 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named MemberRegistration in deployment unit deployment "eRental.war" are as follows:
+
+	java:global/eRental/MemberRegistration!com.pinaka.eRental.controller.MemberRegistration
+	java:app/eRental/MemberRegistration!com.pinaka.eRental.controller.MemberRegistration
+	java:module/MemberRegistration!com.pinaka.eRental.controller.MemberRegistration
+	java:global/eRental/MemberRegistration
+	java:app/eRental/MemberRegistration
+	java:module/MemberRegistration
+
+23:02:46,108 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named EmailProcessor in deployment unit deployment "eRental.war" are as follows:
+
+	java:global/eRental/EmailProcessor!com.pinaka.eRental.util.EmailProcessor
+	java:app/eRental/EmailProcessor!com.pinaka.eRental.util.EmailProcessor
+	java:module/EmailProcessor!com.pinaka.eRental.util.EmailProcessor
+	java:global/eRental/EmailProcessor
+	java:app/eRental/EmailProcessor
+	java:module/EmailProcessor
+
+23:02:46,511 INFO  [org.jboss.weld] (MSC service thread 1-1) Starting Services for CDI deployment: eRental.war
+23:02:46,548 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900 1.1.2 (Final)
+23:02:46,591 INFO  [org.jboss.jpa] (MSC service thread 1-4) starting Persistence Unit Service 'eRental.war#primary' 
+23:02:46,796 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-4) HCANN000001: Hibernate Commons Annotations {4.0.0.CR2}
+23:02:46,803 INFO  [org.hibernate.Version] (MSC service thread 1-4) HHH00412:Hibernate Core {4.0.0.CR2}
+23:02:46,807 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-4) HHH00206:hibernate.properties not found
+23:02:46,809 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-4) HHH00021:Bytecode provider name : javassist
+23:02:46,832 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-4) HHH00204:Processing PersistenceUnitInfo [
+	name: primary
+	...]
+23:02:47,402 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-4) HHH00130:Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+23:02:47,877 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-4) HHH00400:Using dialect: org.hibernate.dialect.MySQLDialect
+23:02:47,896 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-4) HHH00268:Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+23:02:47,901 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-4) HHH00397:Using ASTQueryTranslatorFactory
+23:02:47,952 INFO  [org.hibernate.validator.util.Version] (MSC service thread 1-4) Hibernate Validator 4.2.0.Final
+23:02:48,434 INFO  [org.jboss.as.server.deployment] (pool-1-thread-1) Content added at location C:\Users\Muchandi\jboss-as-web-7.0.2.Final\standalone\data\content\4f\54801383129b47dfd7573d7620dfac8b7b0cc7\content
+23:02:48,640 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) HHH00227:Running hbm2ddl schema export
+23:02:48,647 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table OwnerItem drop foreign key FK787A7046B2369A53
+
+23:02:48,660 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) HHH00389:Unsuccessful: alter table OwnerItem drop foreign key FK787A7046B2369A53
+23:02:48,661 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) Table 'erental.owneritem' doesn't exist
+23:02:48,661 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table OwnerItem drop foreign key FK787A70461C8C6B42
+
+23:02:48,662 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) HHH00389:Unsuccessful: alter table OwnerItem drop foreign key FK787A70461C8C6B42
+23:02:48,662 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) Table 'erental.owneritem' doesn't exist
+23:02:48,663 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalInstance drop foreign key FK7A55DDF950371D4C
+
+23:02:48,664 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) HHH00389:Unsuccessful: alter table RentalInstance drop foreign key FK7A55DDF950371D4C
+23:02:48,664 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) Table 'erental.rentalinstance' doesn't exist
+23:02:48,665 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalInstance drop foreign key FK7A55DDF9FC10292F
+
+23:02:48,666 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) HHH00389:Unsuccessful: alter table RentalInstance drop foreign key FK7A55DDF9FC10292F
+23:02:48,667 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) Table 'erental.rentalinstance' doesn't exist
+23:02:48,667 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalItem drop foreign key FK5351677BE8BEA5B
+
+23:02:48,668 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) HHH00389:Unsuccessful: alter table RentalItem drop foreign key FK5351677BE8BEA5B
+23:02:48,668 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) Table 'erental.rentalitem' doesn't exist
+23:02:48,668 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalItemCost drop foreign key FK9F6726E439160992
+
+23:02:48,670 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) HHH00389:Unsuccessful: alter table RentalItemCost drop foreign key FK9F6726E439160992
+23:02:48,670 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) Table 'erental.rentalitemcost' doesn't exist
+23:02:48,670 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalLocation drop foreign key FKCA8EE91939160992
+
+23:02:48,671 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) HHH00389:Unsuccessful: alter table RentalLocation drop foreign key FKCA8EE91939160992
+23:02:48,671 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) Table 'erental.rentallocation' doesn't exist
+23:02:48,672 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalPenaltyTerm drop foreign key FK806310B139160992
+
+23:02:48,673 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) HHH00389:Unsuccessful: alter table RentalPenaltyTerm drop foreign key FK806310B139160992
+23:02:48,673 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) Table 'erental.rentalpenaltyterm' doesn't exist
+23:02:48,673 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table UserPhone drop foreign key FK8AD6284329957E5A
+
+23:02:48,675 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) HHH00389:Unsuccessful: alter table UserPhone drop foreign key FK8AD6284329957E5A
+23:02:48,675 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) Table 'erental.userphone' doesn't exist
+23:02:48,675 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists Member
+
+23:02:48,736 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists OwnerItem
+
+23:02:48,741 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists REVINFO
+
+23:02:48,745 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists RentalInstance
+
+23:02:48,747 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists RentalItem
+
+23:02:48,750 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists RentalItemCost
+
+23:02:48,752 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists RentalLocation
+
+23:02:48,756 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists RentalPenaltyTerm
+
+23:02:48,758 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists User
+
+23:02:48,761 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists UserPhone
+
+23:02:48,764 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists hibernate_sequence
+
+23:02:48,768 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table Member (id bigint not null, email varchar(255) not null, name varchar(25) not null, phone_number varchar(12) not null, primary key (id), unique (email))
+
+23:02:48,850 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table OwnerItem (OwnerId bigint not null, OwnedItemId bigint not null, unique (OwnedItemId))
+
+23:02:48,967 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table REVINFO (REV integer not null auto_increment, REVTSTMP bigint, primary key (REV))
+
+23:02:49,059 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table RentalInstance (id bigint not null, actualRentalReturn datetime, actualRentalStart datetime, finalRent double precision not null, initialRentCollected double precision not null, otherRejectionReason varchar(255), plannedReturnDate datetime, plannedStartDate datetime, rejectionReason varchar(255), rejectionReasonSharable boolean not null, rentalServiceCommission double precision not null, requestWithdrawalReason varchar(255), safetyDepositCollected double precision not null, status varchar(255), borrower_id bigint, rentedItem_id bigint, primary key (id))
+
+23:02:49,265 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table RentalItem (id bigint not null, availableFrom date, consolidatedRating integer not null, currentlyRented boolean not null, enableRenting boolean not null, itemAge double precision not null, itemBrand varchar(15), itemCategory varchar(255) not null, itemDescription varchar(255), itemSubCategory varchar(255) not null, name varchar(25) not null, pastRentalCount bigint not null, replacementCost double precision not null, termsAndConditions longtext, usageInstructions longtext, workingCondition longtext, owner_id bigint, primary key (id))
+
+23:02:49,416 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table RentalItemCost (rentalItemId bigint not null, active boolean not null, comments varchar(255), cost double precision not null, effectiveDate datetime, endDate datetime, period varchar(255), safetyDeposit double precision not null, costOrder integer not null, primary key (rentalItemId, costOrder))
+
+23:02:49,532 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table RentalLocation (rentalItemId bigint not null, address1 varchar(255), address2 varchar(255), city varchar(255), country varchar(255), state varchar(255), zip varchar(255), contactName varchar(255), contactPhoneNumber varchar(255), email varchar(255), locationOrder integer not null, primary key (rentalItemId, locationOrder))
+
+23:02:49,617 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table RentalPenaltyTerm (rentalItemId bigint not null, penaltyCharge double precision not null, penaltyTerm varchar(255), penaltyTermOrder integer not null, primary key (rentalItemId, penaltyTermOrder))
+
+23:02:49,691 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table User (id bigint not null, address1 varchar(255), address2 varchar(255), city varchar(255), country varchar(255), state varchar(255), zip varchar(255), email varchar(255), firstName varchar(25), lastName varchar(25), title varchar(25), userName varchar(255), primary key (id))
+
+23:02:49,775 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table UserPhone (userId bigint not null, phoneNumber varchar(255), phoneType varchar(255))
+
+23:02:49,890 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table OwnerItem add index FK787A7046B2369A53 (OwnedItemId), add constraint FK787A7046B2369A53 foreign key (OwnedItemId) references RentalItem (id)
+
+23:02:50,225 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table OwnerItem add index FK787A70461C8C6B42 (OwnerId), add constraint FK787A70461C8C6B42 foreign key (OwnerId) references User (id)
+
+23:02:50,550 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalInstance add index FK7A55DDF950371D4C (borrower_id), add constraint FK7A55DDF950371D4C foreign key (borrower_id) references User (id)
+
+23:02:50,766 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalInstance add index FK7A55DDF9FC10292F (rentedItem_id), add constraint FK7A55DDF9FC10292F foreign key (rentedItem_id) references RentalItem (id)
+
+23:02:50,973 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalItem add index FK5351677BE8BEA5B (owner_id), add constraint FK5351677BE8BEA5B foreign key (owner_id) references User (id)
+
+23:02:51,495 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalItemCost add index FK9F6726E439160992 (rentalItemId), add constraint FK9F6726E439160992 foreign key (rentalItemId) references RentalItem (id)
+
+23:02:51,859 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalLocation add index FKCA8EE91939160992 (rentalItemId), add constraint FKCA8EE91939160992 foreign key (rentalItemId) references RentalItem (id)
+
+23:02:52,008 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalPenaltyTerm add index FK806310B139160992 (rentalItemId), add constraint FK806310B139160992 foreign key (rentalItemId) references RentalItem (id)
+
+23:02:52,150 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table UserPhone add index FK8AD6284329957E5A (userId), add constraint FK8AD6284329957E5A foreign key (userId) references User (id)
+
+23:02:52,308 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table hibernate_sequence ( next_val bigint )
+
+23:02:52,382 INFO  [stdout] (MSC service thread 1-4) Hibernate: insert into hibernate_sequence values ( 1 )
+
+23:02:52,871 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) HHH00231:Schema export unsuccessful: org.hibernate.tool.hbm2ddl.ImportScriptException: Error during import script execution at line 7
+	at org.hibernate.tool.hbm2ddl.SchemaExport.importScript(SchemaExport.java:443) [hibernate-core-4.0.0.CR2.jar:4.0.0.CR2]
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:365) [hibernate-core-4.0.0.CR2.jar:4.0.0.CR2]
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:291) [hibernate-core-4.0.0.CR2.jar:4.0.0.CR2]
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:280) [hibernate-core-4.0.0.CR2.jar:4.0.0.CR2]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:440) [hibernate-core-4.0.0.CR2.jar:4.0.0.CR2]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1722) [hibernate-core-4.0.0.CR2.jar:4.0.0.CR2]
+	at org.hibernate.ejb.EntityManagerFactoryImpl.<init>(EntityManagerFactoryImpl.java:76) [hibernate-entitymanager-4.0.0.CR2.jar:4.0.0.CR2]
+	at org.hibernate.ejb.Ejb3Configuration.buildEntityManagerFactory(Ejb3Configuration.java:899) [hibernate-entitymanager-4.0.0.CR2.jar:4.0.0.CR2]
+	at org.hibernate.ejb.Ejb3Configuration.buildEntityManagerFactory(Ejb3Configuration.java:884) [hibernate-entitymanager-4.0.0.CR2.jar:4.0.0.CR2]
+	at org.hibernate.ejb.HibernatePersistence.createContainerEntityManagerFactory(HibernatePersistence.java:73) [hibernate-entitymanager-4.0.0.CR2.jar:4.0.0.CR2]
+	at org.jboss.as.jpa.service.PersistenceUnitService.createContainerEntityManagerFactory(PersistenceUnitService.java:143) [jboss-as-jpa-7.0.2.Final.jar:7.0.2.Final]
+	at org.jboss.as.jpa.service.PersistenceUnitService.start(PersistenceUnitService.java:77) [jboss-as-jpa-7.0.2.Final.jar:7.0.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1824)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1759)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [:1.7.0]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [:1.7.0]
+	at java.lang.Thread.run(Thread.java:722) [:1.7.0]
+Caused by: java.sql.SQLException: Field 'costOrder' doesn't have a default value
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2618)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1749)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1666)
+	at org.jboss.jca.adapters.jdbc.WrappedStatement.executeUpdate(WrappedStatement.java:349)
+	at org.hibernate.tool.hbm2ddl.DatabaseExporter.export(DatabaseExporter.java:64) [hibernate-core-4.0.0.CR2.jar:4.0.0.CR2]
+	at org.hibernate.tool.hbm2ddl.SchemaExport.importScript(SchemaExport.java:438) [hibernate-core-4.0.0.CR2.jar:4.0.0.CR2]
+	... 16 more
+
+23:02:52,881 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) HHH00230:Schema export complete
+23:02:53,099 INFO  [org.jboss.weld] (MSC service thread 1-3) Starting weld service
+23:02:53,897 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-3) Initializing Mojarra 2.1.3 (SNAPSHOT 20110825) for context '/eRental'
+23:02:54,631 INFO  [org.jboss.web] (MSC service thread 1-3) registering web context: /eRental
+23:02:54,713 INFO  [org.jboss.as.server.controller] (DeploymentScanner-threads - 2) Deployed "eRental.war"
+23:02:54,729 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) Starting deployment of "test.war"
+23:02:55,017 INFO  [org.jboss.jpa] (MSC service thread 1-2) read persistence.xml for primary
+23:02:55,019 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) added javax.persistence.api, javaee.api, org.jboss.as.jpa, org.javassist dependencies to test.war
+23:02:55,019 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) added (default provider) org.hibernate dependency to application deployment (since 1 PU(s) didn't specify jboss.as.jpa.providerModule)
+23:02:55,019 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) added org.hibernate dependency to application deployment
+23:02:55,050 INFO  [org.jboss.weld] (MSC service thread 1-4) Processing CDI deployment: test.war
+23:02:55,051 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named UserManagerBean in deployment unit deployment "test.war" are as follows:
+
+	java:global/test/UserManagerBean!com.pinaka.eRental.service.UserManagerBean
+	java:app/test/UserManagerBean!com.pinaka.eRental.service.UserManagerBean
+	java:module/UserManagerBean!com.pinaka.eRental.service.UserManagerBean
+	java:global/test/UserManagerBean
+	java:app/test/UserManagerBean
+	java:module/UserManagerBean
+
+23:02:55,051 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named RentalItemManagerBean in deployment unit deployment "test.war" are as follows:
+
+	java:global/test/RentalItemManagerBean!com.pinaka.eRental.service.RentalItemManager
+	java:app/test/RentalItemManagerBean!com.pinaka.eRental.service.RentalItemManager
+	java:module/RentalItemManagerBean!com.pinaka.eRental.service.RentalItemManager
+	java:global/test/RentalItemManagerBean
+	java:app/test/RentalItemManagerBean
+	java:module/RentalItemManagerBean
+
+23:02:55,088 INFO  [org.jboss.weld] (MSC service thread 1-4) Starting Services for CDI deployment: test.war
+23:02:55,091 INFO  [org.jboss.jpa] (MSC service thread 1-4) starting Persistence Unit Service 'test.war#primary' 
+23:02:55,092 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-4) HHH00204:Processing PersistenceUnitInfo [
+	name: primary
+	...]
+23:02:55,163 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-4) HHH00130:Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+23:02:55,172 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-4) HHH00400:Using dialect: org.hibernate.dialect.MySQLDialect
+23:02:55,173 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-4) HHH00268:Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+23:02:55,173 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-4) HHH00397:Using ASTQueryTranslatorFactory
+23:02:55,284 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) HHH00227:Running hbm2ddl schema export
+23:02:55,286 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table OwnerItem drop foreign key FK787A7046B2369A53
+
+23:02:56,096 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table OwnerItem drop foreign key FK787A70461C8C6B42
+
+23:02:56,430 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalInstance drop foreign key FK7A55DDF950371D4C
+
+23:02:56,732 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalInstance drop foreign key FK7A55DDF9FC10292F
+
+23:02:56,931 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalItem drop foreign key FK5351677BE8BEA5B
+
+23:02:57,173 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalItemCost drop foreign key FK9F6726E439160992
+
+23:02:57,369 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalLocation drop foreign key FKCA8EE91939160992
+
+23:02:57,840 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalPenaltyTerm drop foreign key FK806310B139160992
+
+23:02:57,991 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table UserPhone drop foreign key FK8AD6284329957E5A
+
+23:02:58,156 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists OwnerItem
+
+23:02:58,177 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists REVINFO
+
+23:02:58,217 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists RentalInstance
+
+23:02:58,240 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists RentalItem
+
+23:02:58,268 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists RentalItemCost
+
+23:02:58,291 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists RentalLocation
+
+23:02:58,318 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists RentalPenaltyTerm
+
+23:02:58,350 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists User
+
+23:02:58,370 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists UserPhone
+
+23:02:58,400 INFO  [stdout] (MSC service thread 1-4) Hibernate: drop table if exists hibernate_sequence
+
+23:02:58,426 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table OwnerItem (OwnerId bigint not null, OwnedItemId bigint not null, unique (OwnedItemId))
+
+23:02:58,521 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table REVINFO (REV integer not null auto_increment, REVTSTMP bigint, primary key (REV))
+
+23:02:58,617 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table RentalInstance (id bigint not null, actualRentalReturn datetime, actualRentalStart datetime, finalRent double precision not null, initialRentCollected double precision not null, otherRejectionReason varchar(255), plannedReturnDate datetime, plannedStartDate datetime, rejectionReason varchar(255), rejectionReasonSharable boolean not null, rentalServiceCommission double precision not null, requestWithdrawalReason varchar(255), safetyDepositCollected double precision not null, status varchar(255), borrower_id bigint, rentedItem_id bigint, primary key (id))
+
+23:02:58,690 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table RentalItem (id bigint not null, availableFrom date, consolidatedRating integer not null, currentlyRented boolean not null, enableRenting boolean not null, itemAge double precision not null, itemBrand varchar(15), itemCategory varchar(255) not null, itemDescription varchar(255), itemSubCategory varchar(255) not null, name varchar(25) not null, pastRentalCount bigint not null, replacementCost double precision not null, termsAndConditions longtext, usageInstructions longtext, workingCondition longtext, owner_id bigint, primary key (id))
+
+23:02:58,765 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table RentalItemCost (rentalItemId bigint not null, active boolean not null, comments varchar(255), cost double precision not null, effectiveDate datetime, endDate datetime, period varchar(255), safetyDeposit double precision not null, costOrder integer not null, primary key (rentalItemId, costOrder))
+
+23:02:59,363 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table RentalLocation (rentalItemId bigint not null, address1 varchar(255), address2 varchar(255), city varchar(255), country varchar(255), state varchar(255), zip varchar(255), contactName varchar(255), contactPhoneNumber varchar(255), email varchar(255), locationOrder integer not null, primary key (rentalItemId, locationOrder))
+
+23:02:59,544 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table RentalPenaltyTerm (rentalItemId bigint not null, penaltyCharge double precision not null, penaltyTerm varchar(255), penaltyTermOrder integer not null, primary key (rentalItemId, penaltyTermOrder))
+
+23:02:59,718 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table User (id bigint not null, address1 varchar(255), address2 varchar(255), city varchar(255), country varchar(255), state varchar(255), zip varchar(255), email varchar(255), firstName varchar(25), lastName varchar(25), title varchar(25), userName varchar(255), primary key (id))
+
+23:02:59,948 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table UserPhone (userId bigint not null, phoneNumber varchar(255), phoneType varchar(255))
+
+23:03:00,072 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table OwnerItem add index FK787A7046B2369A53 (OwnedItemId), add constraint FK787A7046B2369A53 foreign key (OwnedItemId) references RentalItem (id)
+
+23:03:00,560 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table OwnerItem add index FK787A70461C8C6B42 (OwnerId), add constraint FK787A70461C8C6B42 foreign key (OwnerId) references User (id)
+
+23:03:00,765 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalInstance add index FK7A55DDF950371D4C (borrower_id), add constraint FK7A55DDF950371D4C foreign key (borrower_id) references User (id)
+
+23:03:00,960 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalInstance add index FK7A55DDF9FC10292F (rentedItem_id), add constraint FK7A55DDF9FC10292F foreign key (rentedItem_id) references RentalItem (id)
+
+23:03:01,332 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalItem add index FK5351677BE8BEA5B (owner_id), add constraint FK5351677BE8BEA5B foreign key (owner_id) references User (id)
+
+23:03:01,717 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalItemCost add index FK9F6726E439160992 (rentalItemId), add constraint FK9F6726E439160992 foreign key (rentalItemId) references RentalItem (id)
+
+23:03:01,851 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalLocation add index FKCA8EE91939160992 (rentalItemId), add constraint FKCA8EE91939160992 foreign key (rentalItemId) references RentalItem (id)
+
+23:03:02,040 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table RentalPenaltyTerm add index FK806310B139160992 (rentalItemId), add constraint FK806310B139160992 foreign key (rentalItemId) references RentalItem (id)
+
+23:03:02,217 INFO  [stdout] (MSC service thread 1-4) Hibernate: alter table UserPhone add index FK8AD6284329957E5A (userId), add constraint FK8AD6284329957E5A foreign key (userId) references User (id)
+
+23:03:02,415 INFO  [stdout] (MSC service thread 1-4) Hibernate: create table hibernate_sequence ( next_val bigint )
+
+23:03:02,537 INFO  [stdout] (MSC service thread 1-4) Hibernate: insert into hibernate_sequence values ( 1 )
+
+23:03:02,575 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) HHH00230:Schema export complete
+23:03:02,634 INFO  [org.jboss.weld] (MSC service thread 1-4) Starting weld service
+23:03:02,764 INFO  [org.jboss.web] (MSC service thread 1-2) registering web context: /test
+23:03:02,779 INFO  [org.jboss.as.server.controller] (pool-1-thread-1) Deployed "test.war"
+23:03:03,680 INFO  [org.jboss.as.server.controller] (pool-1-thread-1) Undeployed "test.war"
+23:03:03,685 INFO  [org.jboss.weld] (MSC service thread 1-1) Stopping weld service
+23:03:03,689 INFO  [org.jboss.jpa] (MSC service thread 1-2) stopping Persistence Unit Service 'test.war#primary' 
+23:03:03,690 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-2) HHH00227:Running hbm2ddl schema export
+23:03:03,691 INFO  [stdout] (MSC service thread 1-2) Hibernate: alter table OwnerItem drop foreign key FK787A7046B2369A53
+
+23:03:04,050 INFO  [stdout] (MSC service thread 1-2) Hibernate: alter table OwnerItem drop foreign key FK787A70461C8C6B42
+
+23:03:04,249 INFO  [stdout] (MSC service thread 1-2) Hibernate: alter table RentalInstance drop foreign key FK7A55DDF950371D4C
+
+23:03:04,466 INFO  [stdout] (MSC service thread 1-2) Hibernate: alter table RentalInstance drop foreign key FK7A55DDF9FC10292F
+
+23:03:05,119 INFO  [stdout] (MSC service thread 1-2) Hibernate: alter table RentalItem drop foreign key FK5351677BE8BEA5B
+
+23:03:05,585 INFO  [stdout] (MSC service thread 1-2) Hibernate: alter table RentalItemCost drop foreign key FK9F6726E439160992
+
+23:03:05,807 INFO  [stdout] (MSC service thread 1-2) Hibernate: alter table RentalLocation drop foreign key FKCA8EE91939160992
+
+23:03:06,033 INFO  [stdout] (MSC service thread 1-2) Hibernate: alter table RentalPenaltyTerm drop foreign key FK806310B139160992
+
+23:03:06,449 INFO  [stdout] (MSC service thread 1-2) Hibernate: alter table UserPhone drop foreign key FK8AD6284329957E5A
+
+23:03:06,673 INFO  [stdout] (MSC service thread 1-2) Hibernate: drop table if exists OwnerItem
+
+23:03:06,698 INFO  [stdout] (MSC service thread 1-2) Hibernate: drop table if exists REVINFO
+
+23:03:06,732 INFO  [stdout] (MSC service thread 1-2) Hibernate: drop table if exists RentalInstance
+
+23:03:06,756 INFO  [stdout] (MSC service thread 1-2) Hibernate: drop table if exists RentalItem
+
+23:03:06,790 INFO  [stdout] (MSC service thread 1-2) Hibernate: drop table if exists RentalItemCost
+
+23:03:06,823 INFO  [stdout] (MSC service thread 1-2) Hibernate: drop table if exists RentalLocation
+
+23:03:06,848 INFO  [stdout] (MSC service thread 1-2) Hibernate: drop table if exists RentalPenaltyTerm
+
+23:03:06,881 INFO  [stdout] (MSC service thread 1-2) Hibernate: drop table if exists User
+
+23:03:06,915 INFO  [stdout] (MSC service thread 1-2) Hibernate: drop table if exists UserPhone
+
+23:03:06,940 INFO  [stdout] (MSC service thread 1-2) Hibernate: drop table if exists hibernate_sequence
+
+23:03:06,974 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-2) HHH00230:Schema export complete
+23:03:07,051 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) Stopped deployment test.war in 3381ms
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 29.087 sec <<< FAILURE!
+
+Results :
+
+Tests in error: 
+  testNullAddRentalItem(com.pinaka.eRental.test.RentalItemManagerBeanTest)
+  testAddRentalItemNoOwner(com.pinaka.eRental.test.RentalItemManagerBeanTest)
+  testNullUpdateRentalItem(com.pinaka.eRental.test.RentalItemManagerBeanTest)
+  testAddFindRentalItems(com.pinaka.eRental.test.RentalItemManagerBeanTest)
+  testAddRentalItemInvalidOwner(com.pinaka.eRental.test.RentalItemManagerBeanTest)
+  testAddFindAndRemoveRentalItem(com.pinaka.eRental.test.RentalItemManagerBeanTest)
+  testUpdateNonExistingRentalItem(com.pinaka.eRental.test.RentalItemManagerBeanTest)
+  testRemoveNonExistingRentalItem(com.pinaka.eRental.test.RentalItemManagerBeanTest)
+  testRemoveNull(com.pinaka.eRental.test.RentalItemManagerBeanTest)
+  testUpdateRentalItem(com.pinaka.eRental.test.RentalItemManagerBeanTest)
+
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 37.995s
+[INFO] Finished at: Thu Apr 05 23:03:07 EDT 2012
+[INFO] Final Memory: 18M/47M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.7.2:test (default-test) on project eRental: There are test failures.
+[ERROR] 
+[ERROR] Please refer to C:\Users\Muchandi\WORKSP~1\eRental\target\surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

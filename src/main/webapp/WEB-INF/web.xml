@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+   <context-param>
+      <param-name>resteasy.role.based.security</param-name>
+      <param-value>true</param-value>
+   </context-param>
+ 
+ <!--  
+  <listener>
+      <listener-class>org.jboss.resteasy.plugins.server.servlet.ResteasyBootstrap</listener-class>
+   </listener>
+
+   <servlet>
+      <servlet-name>Resteasy</servlet-name>
+      <servlet-class>org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher</servlet-class>
+   </servlet>
+
+  <servlet-mapping>
+      <servlet-name>Resteasy</servlet-name>
+      <url-pattern>/rest/*</url-pattern>
+   </servlet-mapping>
+-->
+  	
+     
+	<security-constraint>
+          <web-resource-collection>
+		       <web-resource-name>AllRestricted</web-resource-name>
+<!--          <description>Protects all webservices</description> --> 
+               <url-pattern>/rest/my-rental-items</url-pattern>
+               <url-pattern>/rest/users</url-pattern>
+               <url-pattern>/rest/users/*</url-pattern>
+               <url-pattern>/rest/rental-requests</url-pattern>
+               <url-pattern>/rest/rental-requests/*</url-pattern>
+               <http-method>GET</http-method>
+               <http-method>PUT</http-method>
+               </web-resource-collection>
+          <auth-constraint>
+               <role-name>user</role-name>
+               <role-name>admin</role-name> 
+          </auth-constraint> 
+     </security-constraint>
+     
+      
+     <security-constraint>
+          <web-resource-collection>
+		       <web-resource-name>Unrestricted POST PUT SSL</web-resource-name>
+   		       <url-pattern>/rest/users</url-pattern>
+     			<http-method>POST</http-method>
+     	  </web-resource-collection>
+          <user-data-constraint>
+          <!--  need to change this to CONFIDENTIAL -->
+			<transport-guarantee>NONE</transport-guarantee>
+		  </user-data-constraint>
+      </security-constraint>
+      
+      <security-constraint>
+          <web-resource-collection>
+		       <web-resource-name>Restricted POST SSL</web-resource-name>
+   		       <url-pattern>/rest/administrators</url-pattern>
+     			<http-method>POST</http-method>
+     	  </web-resource-collection>
+     	  <auth-constraint>
+               <role-name>user</role-name>
+               <role-name>admin</role-name> 
+          </auth-constraint> 
+          <user-data-constraint>
+          <!--  need to change this to CONFIDENTIAL -->
+			<transport-guarantee>NONE</transport-guarantee>
+		  </user-data-constraint>
+      </security-constraint>
+      
+      <security-constraint>
+          <web-resource-collection>
+		       <web-resource-name>Unrestricted GET</web-resource-name>
+   		       <url-pattern>/rest/rental-items/*</url-pattern>
+     			<http-method>GET</http-method>
+          </web-resource-collection>
+      </security-constraint>
+ 
+
+      <security-constraint>
+          <web-resource-collection>
+		       <web-resource-name>Unrestricted OPTIONS</web-resource-name>
+   		       <url-pattern>/*</url-pattern>
+     			<http-method>OPTIONS</http-method>
+          </web-resource-collection>
+      </security-constraint>
+
+      
+      <security-constraint>
+          <web-resource-collection>
+		       <web-resource-name>Parts Restricted</web-resource-name>
+   		       <url-pattern>/rest/rental-items/*</url-pattern>
+   		       <url-pattern>/rest/rental-requests</url-pattern>
+               <url-pattern>/rest/rental-requests/*</url-pattern>
+     			<http-method>DELETE</http-method>
+				<http-method>PUT</http-method>
+				<http-method>HEAD</http-method>
+				<http-method>TRACE</http-method>
+				<http-method>POST</http-method>
+          </web-resource-collection>
+          <auth-constraint>
+               <role-name>user</role-name>
+               <role-name>admin</role-name> 
+          </auth-constraint>
+      </security-constraint>
+
+<!-- 
+     <security-role>
+          <role-name>user</role-name>
+     </security-role>
+     <security-role>
+          <role-name>admin</role-name>
+     </security-role>
+     
+ -->
+     <login-config>
+          <auth-method>DIGEST</auth-method>
+          <realm-name>ApplicationRealm</realm-name>
+     </login-config>
+     
+    <!-- Load CORS Filter -->
+  	<filter>
+		<filter-name>CORS</filter-name>
+		<filter-class>com.thetransactioncompany.cors.CORSFilter</filter-class>
+		<init-param>
+        	<param-name>cors.supportedHeaders</param-name>
+        	<param-value>content-type, x-requested-with, origin, accept</param-value>
+    	</init-param>
+    	<init-param>
+            <param-name>cors.supportsCredentials</param-name>
+            <param-value>true</param-value>
+       </init-param>  
+       <init-param>
+            <param-name>cors.allowOrigin</param-name>
+            <param-value>http://localhost:8080 http://erentalui-pinaka.rhcloud.com http://myapp-pinaka.rhcloud.com</param-value>
+       </init-param>
+	</filter>
+
+	<!-- Apply the CORS filter to all web app URLs -->
+	<filter-mapping>
+        <filter-name>CORS</filter-name>
+        <url-pattern>/*</url-pattern>
+	</filter-mapping>
+  </web-app>
